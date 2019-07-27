@@ -1,5 +1,5 @@
 const {expect} = require("chai");
-const api = require("./registry");
+const api = require("../utils/registry");
 
 describe('public registry api test', function () {
   describe('GET api url without any endpoint', function () {

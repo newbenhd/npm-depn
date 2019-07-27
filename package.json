@@ -1,11 +1,11 @@
 {
   "name": "depn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a npm registry api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "mocha index.test.js"
+    "test": "mocha",
+    "prepublish": "mocha"
   },
   "author": "Benjamin L. Morrison",
   "license": "MIT",
